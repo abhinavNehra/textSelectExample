@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+        webapp:
+                image: node:12.16.0-buster
+                working_dir: /project
+                volumes:
+                        - ./:/project
+                expose:
+                  - 3000
+                  - 3001
+                ports:
+                - 3000:3000
+                command: bash -c "apt-get update && npm install -g npm && npm update && npm clean-install && npm install && npm start"
+
+
+
+
+
+

@@ -7,4 +7,3 @@ my-app-copy
 package-lock.json
 Dockerfile
 .dockerignore
-docker-compose.yml
