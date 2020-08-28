@@ -1,0 +1,10 @@
+node_modules
+src/text-selection.js
+.idea
+.vscode
+build
+my-app-copy
+package-lock.json
+Dockerfile
+.dockerignore
+docker-compose.yml

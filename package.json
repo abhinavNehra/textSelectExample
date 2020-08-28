@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "create-pdf": "^1.0.17",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-scripts": "2.1.3",
-    "text-selection-react": "^1.0.11"
+    "search-tree-child": "^1.0.14",
+    "text-selection-react": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
